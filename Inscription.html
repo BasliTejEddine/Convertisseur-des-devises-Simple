@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Inscription</title>
+</head>
+<body>
+    <div id="navbar">
+        <a href="Envoyer_L'argent.html"> Envoyer L'argent </a>
+        <a href="index.html"> Convertiseur </a>
+        <a href="Connexion.html"> Connexion </a>
+        <a href="Inscription.html"> Inscription </a>
+    </div>
+    <div id="Container">
+        <h2> Inscription </h2>
+        <form id="Myform">
+            <label for="devise"> Full Name </label>
+            <input type="text" id="FullName" placeholder="FullName" required>
+
+            <label for="devise"> Username </label>
+            <input type="text" id="Username" placeholder="Username" required>
+    
+            <label> Password </label>
+            <input type="text"  id="Password" placeholder="Password" required>
+
+            <label> Repeat Password </label>
+            <input type="text"  id="Password" placeholder="Repeat Password" required>
+                
+            <button type="submit" id="btnSub" onclick="Verif2()" > Inscription </button>
+            <button type="reset" id="btnAnnuler"> Annuler </button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <footer>
+        <div id="info">
+          <span> All right reserved | Photo by TejEddine Basli | Design by TejEddine Basli</span>
+        </div>
+        <div id="icons">
+          <a href="" id="fcb"> <i class='bx bxl-facebook'></i> </a>
+          <a href="" id="insta"> <i class='bx bxl-instagram' ></i> </a>
+          <a href="" id="linkedin"> <i class='bx bxl-linkedin' ></i> </a>
+        </div>
+    </footer>
+</body>
+</html>
